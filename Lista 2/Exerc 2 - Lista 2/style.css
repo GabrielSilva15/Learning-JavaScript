@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-color: #2d62f1;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   font-size: 1.3em;
+   line-height: 1.5em;
+
+}
+
+.container{
+    background-color: #fff;
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h1,div{
+    color: white;
+    text-decoration: 1px underline white;
+    font-weight: bold;
+    display: inline-block;
+    text-underline-position: under;
+}
+
+button{
+    width: 100px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    outline-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    outline-style: none;
+    text-align: center;
+}
+
+#base{
+    width: 150px;
+}
+#expoente{
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+input:hover{
+  
+}

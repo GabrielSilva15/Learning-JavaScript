@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.adicionarCliente{
+    border: 1px solid black;
+    width: 200px;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    
+}
+
+.adicionarCliente > button {
+    margin: 10px 0 10px 0;
+}
+.ClientesAdicionados{
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 500px; 
+}
+.ClientesAdicionados > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.ClientesAdicionados > ul > li{
+    list-style: none;
+    width: 90%;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
